@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.photo{
+    width: 100%;
+    height: 220px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px gray;
+}
+.song{
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+}
+p{
+    color: gray;
+    font-size: 12px;
+    margin-right: 0.5rem;
+}
+.time{
+    display: flex;
+}

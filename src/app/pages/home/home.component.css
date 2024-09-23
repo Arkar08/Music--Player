@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(6,230px);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    display: flex;
+}
+.trending{
+    width: 100px;
+    height: 350px;
+    flex: 2;
+    padding: 0rem 1rem;
+}
+.top-playList{
+    width: 100px;
+    height: 350px;
+    flex: 3;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+.top-card{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}

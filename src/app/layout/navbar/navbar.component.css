@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    box-shadow: 1px 1px 5px gray;
+    padding: 0px 30px;
+}
+.main{
+    position: relative;
+}
+.search{
+    width: 300px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color: black;
+    box-shadow: 1px 1px 5px gray;
+    border: none;
+    outline: none;
+    color: white;
+}
+.search::placeholder{
+    color: white;
+}
+.icon{
+    position: absolute;
+    top:10px;
+    left: 15px;
+}
+.card{
+    display: flex;
+    width: 200px;
+    box-shadow: 1px 1px 5px gray;
+    padding:10px 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.imgFolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+}
+p{
+    color: white;
+    margin-left: 5px;
+}
+.mat-icon{
+    color: white;
+    font-size: 25px;
+}
